@@ -1,9 +1,26 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Course from './Course';
 
 const Courses = () => {
-    return (
-        <div class="grid grid-cols-4 gap-4">
 
+    const [courses, setCourses] = useState([]);
+
+    useEffect(() => {
+        fetch('courses.json')
+            .then(res => res.json())
+            .then(data => setCourses(data))
+    }, [])
+    return (
+        <div className='mx-8'>
+            <h2 className='text-4xl text-warning text-center mb-8'>Available Courses</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-between">
+                {
+                    courses.map(course => <Course
+                        key={course._id}
+                        course={course}
+                    ></Course>)
+                }
+            </div>
         </div>
     );
 };

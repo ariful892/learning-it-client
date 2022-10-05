@@ -1,0 +1,56 @@
+[
+    {
+        "_id": 1,
+        "name": "Structured Programming",
+        "author": "Jhankar Mahbub",
+        "quantity": 70,
+        "description": "Structured programming is a subset of procedural programming. It is also known as modular programming. It is a logical programming method that is considered a precursor to object-oriented programming (OOP).",
+        "img": "https://i.ibb.co/SwQ2n5J/sp.png",
+        "price": 120
+    },
+    {
+        "_id": 2,
+        "name": "Data Structure",
+        "author": "Shirin Chy",
+        "quantity": 60,
+        "description": "A data structure is a way of organizing the data so that it can be used efficiently. Here, we have used the word efficiently, which in terms of both the space and time.",
+        "img": "https://i.ibb.co/XydyJLc/ds.png",
+        "price": 140
+    },
+    {
+        "_id": 3,
+        "name": "OOP",
+        "author": "Rokon Uddin",
+        "quantity": 50,
+        "description": "Object-oriented programming ( OOP) is a programming paradigm based on the concept of 'objects', which can contain data and code: data in the form of fields (often known as attributes or properties ), and code, in the form of procedures (often known as methods ).",
+        "img": "https://i.ibb.co/ngxB1D9/oop.png",
+        "price": 180
+    },
+    {
+        "_id": 4,
+        "name": "Algorithm",
+        "author": "Minhaz Hossen",
+        "quantity": 75,
+        "description": "an algorithm is a set of well-defined steps or rules that you need to follow to obtain a pre-determined result. For instance, when we talk about algorithms in computer programming, we already have our input and we know the expected output.",
+        "img": "https://i.ibb.co/Tcqgz9N/algo.png",
+        "price": 170
+    },
+    {
+        "_id": 5,
+        "name": "DBMS",
+        "author": "Mahadi Hasan",
+        "quantity": 70,
+        "description": "A database management system (or DBMS) is essentially nothing more than a computerized data-keeping system. Users of the system are given facilities to perform several kinds of operations on such a system for either manipulation of the data in the database or the management of the database structure itself.",
+        "img": "https://i.ibb.co/qWRwrXC/database.png",
+        "price": 150
+    },
+    {
+        "_id": 6,
+        "name": "Software  Engineering",
+        "author": "Md Hamim",
+        "quantity": 55,
+        "description": "Software engineering is the systematic application of engineering approaches to the development of software. Software engineering is a computing discipline.",
+        "img": "https://i.ibb.co/dQV4SgB/software.png",
+        "price": 175
+    }
+]
