@@ -13,9 +13,9 @@ const Course = ({ course }) => {
             <div className="card-body items-center text-center pt-5">
                 <h2 className="card-title text-black">{name}</h2>
                 <p className='text-black'>Instructor: {author}</p>
-                <p className='text-black'>Available Quantity: {quantity}</p>
+                <p className='text-black'>Available Seat: {quantity}</p>
                 <div className="card-actions mt-3">
-                    <Link to={`/booking/${_id}`} className="btn btn-accent">Buy Now</Link>
+                    <Link to={`/booking/${_id}`} className="btn btn-accent">Book Now</Link>
                 </div>
             </div>
         </div>
